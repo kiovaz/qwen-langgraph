@@ -1,3 +1,10 @@
+# local
+guia_projeto.md
+.env
+
+chroma_db/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
