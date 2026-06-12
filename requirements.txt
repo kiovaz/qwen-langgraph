@@ -1,0 +1,14 @@
+langchain>=0.2.0
+langgraph>=0.2.0
+langchain-ollama
+langchain-community
+chromadb>=1.0.0
+pymupdf
+tavily-python
+streamlit
+python-dotenv
+ragas
+requests 
+fitz
+langchain-text-splitters
+langchain-core
