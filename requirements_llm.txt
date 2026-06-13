@@ -1,4 +1,11 @@
+# bash
 # curl -fsSL https://ollama.com/install.sh | sh
+
+# cmd
+# winget install Ollama.Ollama
+
 ollama pull qwen2.5:7b       
-ollama pull bge-m3            
-ollama pull gemma3:4b       
+ollama pull bge-m3     
+
+# backup
+ollama pull gemma3:4b
