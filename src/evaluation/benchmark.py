@@ -227,7 +227,7 @@ def print_summary(results: list[dict], split: str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Benchmark LAPES 2026")
+    parser = argparse.ArgumentParser(description="Benchmark do LLM Knowledge Assistant")
     parser.add_argument(
         "--split",
         choices=["validation", "test", "all"],

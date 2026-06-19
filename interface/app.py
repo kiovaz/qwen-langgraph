@@ -42,7 +42,7 @@ with st.sidebar:
     st.markdown("🌐 Score < threshold → **Web**")
 
     st.markdown("---")
-    st.caption("LAPES 2026 — Caio Vasconcelos Braga")
+    st.caption("@kiovaz")
 
 st.title("🤖 LLM Knowledge Assistant")
 st.markdown("Sistema RAG multiagente sobre papers de IA Generativa")

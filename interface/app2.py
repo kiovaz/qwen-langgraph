@@ -56,7 +56,7 @@ with st.sidebar:
         st.session_state.last_trace = None
         st.rerun()
 
-    st.caption("LAPES 2026 — Caio Vasconcelos Braga")
+    st.caption("@kiovaz")
 
 st.title("🤖 LLM Knowledge Assistant")
 st.markdown("Sistema RAG multiagente sobre papers de IA Generativa")
