@@ -1,0 +1,84 @@
+[
+    {
+        "id": "V1",
+        "question": "O que é o mecanismo de self-attention e como funciona?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "attention is all you need"
+        ],
+        "notes": "Conceito central do Transformer — deve estar nos papers"
+    },
+    {
+        "id": "V2",
+        "question": "Qual a diferença entre BERT e GPT na arquitetura?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "bert",
+            "gpt3"
+        ],
+        "notes": "BERT é encoder-only, GPT é decoder-only"
+    },
+    {
+        "id": "V3",
+        "question": "Como o LoRA reduz parâmetros treináveis no fine-tuning?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "lora"
+        ],
+        "notes": "Low-rank decomposition de matrizes de peso"
+    },
+    {
+        "id": "V4",
+        "question": "O que é Chain-of-Thought prompting e como melhora o raciocínio?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "chain of thought"
+        ],
+        "notes": "Técnica de prompting com passos intermediários de raciocínio"
+    },
+    {
+        "id": "V5",
+        "question": "Como RAG combina memória paramétrica e não-paramétrica?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "rag lewis",
+            "rag survey"
+        ],
+        "notes": "Retrieval-Augmented Generation — combina LLM com base de conhecimento externa"
+    },
+    {
+        "id": "V6",
+        "question": "Qual LLM open-source tem melhor score no MMLU hoje?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Rankings mudam constantemente — não está nos papers"
+    },
+    {
+        "id": "V7",
+        "question": "Quanto custa a API do GPT-4o atualmente?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Preços são dinâmicos — não estão nos papers"
+    },
+    {
+        "id": "V8",
+        "question": "Quais países já regulamentaram o uso de IA generativa?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Legislação evolui — não está nos papers"
+    },
+    {
+        "id": "V9",
+        "question": "Quais são as novidades da última versão do LangChain?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Software muda rapidamente — não está nos papers"
+    },
+    {
+        "id": "V10",
+        "question": "O que é o DeepSeek-R1 e como se compara ao GPT-4?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Modelo lançado após o corpus — não está nos papers"
+    }
+]

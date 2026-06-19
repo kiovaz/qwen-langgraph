@@ -1,0 +1,82 @@
+[
+    {
+        "id": "T1",
+        "question": "Quais scaling laws Kaplan identificou entre modelo, dados e compute?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "scaling laws kaplan"
+        ],
+        "notes": "Leis de escala — relação entre tamanho do modelo, dados e custo computacional"
+    },
+    {
+        "id": "T2",
+        "question": "Como o RLHF alinhou o InstructGPT comparado ao GPT-3 original?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "instructgpt rlhf"
+        ],
+        "notes": "Reinforcement Learning from Human Feedback — alinhamento por preferência humana"
+    },
+    {
+        "id": "T3",
+        "question": "O que é o paradigma ReAct e como combina raciocínio e ação em agentes?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "react"
+        ],
+        "notes": "ReAct = Reasoning + Acting — agentes que raciocinam antes de agir"
+    },
+    {
+        "id": "T4",
+        "question": "Quais categorias de alucinação em LLMs existem segundo a literatura?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "hallucination survey"
+        ],
+        "notes": "Taxonomia de alucinações — factual, faithfulness, etc."
+    },
+    {
+        "id": "T5",
+        "question": "Qual a diferença entre Naive RAG, Advanced RAG e Modular RAG?",
+        "expected_source": "rag",
+        "expected_papers": [
+            "rag survey"
+        ],
+        "notes": "Evolução da arquitetura RAG descrita no survey de Gao et al."
+    },
+    {
+        "id": "T6",
+        "question": "Quais foram os principais anúncios de IA no Google I/O 2026?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Evento pós-corpus — não está nos papers"
+    },
+    {
+        "id": "T7",
+        "question": "Qual o consumo energético estimado para treinar um LLM de 70B hoje?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Dados mudam com novos hardware e técnicas — não está nos papers"
+    },
+    {
+        "id": "T8",
+        "question": "Quais startups brasileiras estão usando IA generativa em 2026?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Informação temporal e regional — não está nos papers"
+    },
+    {
+        "id": "T9",
+        "question": "Qual a posição atual da OpenAI sobre modelos open-source?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Política corporativa muda — não está nos papers"
+    },
+    {
+        "id": "T10",
+        "question": "Quais vulnerabilidades de segurança em LLMs foram descobertas nos últimos 6 meses?",
+        "expected_source": "web",
+        "expected_papers": [],
+        "notes": "Segurança evolui constantemente — não está nos papers"
+    }
+]
