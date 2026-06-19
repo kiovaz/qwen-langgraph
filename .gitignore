@@ -1,9 +1,12 @@
 # local
 guia_projeto.md
 .env
-
+traces/
 chroma_db/
-
+.vscode/
+.streamlit/
+corpus/
+results/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

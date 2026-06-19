@@ -1,7 +1,7 @@
 """
 benchmark.py
 ------------
-Runner automatizado do benchmark LAPES 2026.
+Runner automatizado do benchmark
 Roda todas as perguntas do dataset e salva os resultados.
 
 Uso:
@@ -30,11 +30,6 @@ import argparse
 from src.orchestration.graph import run_pipeline
 from src.observability.tracer import save_trace
 
-
-# ─────────────────────────────────────────────
-# Configuração
-# ─────────────────────────────────────────────
-
 EVAL_DIR     = "src/evaluation"
 RESULTS_DIR  = "results"
 TRACES_DIR   = "traces"
@@ -43,11 +38,6 @@ DATASETS = {
     "validation": os.path.join(EVAL_DIR, "validation_set.json"),
     "test":       os.path.join(EVAL_DIR, "test_set.json"),
 }
-
-
-# ─────────────────────────────────────────────
-# Funções
-# ─────────────────────────────────────────────
 
 def load_dataset(split: str) -> list[dict]:
     path = DATASETS[split]
@@ -235,10 +225,6 @@ def print_summary(results: list[dict], split: str):
     print(f"  Tempo médio      : {avg_time:.1f}s por pergunta")
     print(f"{'='*60}\n")
 
-
-# ─────────────────────────────────────────────
-# Main
-# ─────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Benchmark LAPES 2026")
