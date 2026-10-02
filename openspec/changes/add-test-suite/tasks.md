@@ -8,9 +8,9 @@
 
 ## 2. Orquestração e agentes (Pixel)
 
-- [ ] 2.1 `tests/test_state.py` (`src/orchestration/state.py`)
-- [ ] 2.2 `tests/test_graph.py`: roteamento condicional score ≥ threshold → RAG, senão Web Fallback (LLM e Tavily mockados)
-- [ ] 2.3 `tests/test_agents.py`: `query_reformer`, `retriever`, `web_fallback`, `response_builder`
+- [x] 2.1 `tests/test_state.py` (`src/orchestration/state.py`)
+- [x] 2.2 `tests/test_graph.py`: roteamento condicional score ≥ threshold → RAG, senão Web Fallback (LLM e Tavily mockados)
+- [x] 2.3 `tests/test_agents.py`: `query_reformer`, `retriever`, `web_fallback`, `response_builder`
 
 ## 3. Ingestão restante e avaliação (Byte)
 
