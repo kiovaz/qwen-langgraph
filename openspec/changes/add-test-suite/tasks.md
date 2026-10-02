@@ -14,8 +14,8 @@
 
 ## 3. Ingestão restante e avaliação (Byte)
 
-- [ ] 3.1 `tests/test_embedder.py` e `tests/test_indexer.py` (Chroma em diretório temporário, embeddings falsos)
-- [ ] 3.2 `tests/test_benchmark.py` (`src/evaluation/benchmark.py`, usando `test_set.json` reduzido)
+- [x] 3.1 `tests/test_embedder.py` e `tests/test_indexer.py` (Chroma em diretório temporário, embeddings falsos)
+- [x] 3.2 `tests/test_benchmark.py` (`src/evaluation/benchmark.py`, usando `test_set.json` reduzido)
 
 ## 4. Fechamento
 
